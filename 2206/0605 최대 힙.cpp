@@ -3,9 +3,6 @@
 #include <queue>
 using namespace std;
 priority_queue<int> q;
-bool cmp(int a, int b){
-  return a > b;
-}
 int main(){
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
